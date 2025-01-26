@@ -60,13 +60,24 @@
    .title{
      font-size: xx-large;
    }
-   body{
+   body{ 
+     
       background-color:black}
       #container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+       margin-bottom: 200px;
 
       }
-      
+      #prank:active{
+        color: blue;
+        font-size: 100px;
+      }
+      #prank{
+        color: rgb(7, 105, 176);
+        font-size: 100px;
+      }
    
